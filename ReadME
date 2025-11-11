@@ -1,0 +1,87 @@
+📚 BookStore API
+
+A full-stack Book Management System built with Node.js, Express, MongoDB, and React.
+This app allows you to create, read, update, and delete books through a modern UI or RESTful API.
+
+🧰 Features
+
+CRUD operations for books: create, read, update, delete
+
+Responsive modern UI with Tailwind CSS (light & dark mode support)
+
+Form validation and error handling
+
+API endpoints secured with proper status codes and messages
+
+Loading indicators and snackbars for smooth UX
+
+⚡ Tech Stack
+
+Backend: Node.js, Express, Mongoose (MongoDB)
+
+Frontend: React, Tailwind CSS, Axios, React Router
+
+State Management: React useState, useEffect
+
+Notifications: notistack
+
+Dev Tools: Nodemon, Axios, dotenv, CORS
+
+Frontend: http://localhost:3000
+
+Backend: http://localhost:5000/api/books
+
+🛠 API Endpoints
+Method	Endpoint	Description
+GET	/api/books	Get all books
+POST	/api/books	Create a new book
+GET	/api/books/:id	Get a single book
+PUT	/api/books/:id	Update a book
+DELETE	/api/books/:id	Delete a book
+🎨 Frontend Pages
+
+Home: List all books (table/card view toggle)
+
+Create Book: Add a new book with title, author, and publish year
+
+Edit Book: Update book information
+
+Show Book: View details of a book
+
+Delete Book: Confirm and delete a book
+
+All pages include dark mode, loading indicators, and snackbar notifications.
+
+🛡 Error Handling
+
+Custom error class AppError
+
+Global error handler in Express
+
+Front-end notifications using notistack
+
+📌 Notes
+
+Make sure your MongoDB connection string is correct.
+
+Ports should match in frontend and backend requests (5000 in backend, 3000 in frontend).
+
+You can customize the dark mode theme in Tailwind config.
+
+💡 Future Improvements
+
+Add user authentication (JWT)
+
+Add book cover image upload
+
+Add search and filter functionality
+
+Add pagination for large book lists
+
+👨‍💻 Author
+
+Your Name – Full-stack developer
+
+GitHub: [Awad7Coder]
+
+Email: [awadfahem7@gmail.com]
